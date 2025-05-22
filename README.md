@@ -28,7 +28,6 @@ This project provides a command-line tool (`test_app`) with multiple search and 
 ## Add GoogleTest as a Submodule (if cloning project from GitHub):
 
 ```bash
-git submodule add https://github.com/google/googletest.git contrib/googletest
 git submodule update --init --recursive
 ```
 
