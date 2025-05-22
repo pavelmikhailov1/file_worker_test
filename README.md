@@ -16,7 +16,7 @@ This project provides a command-line tool (`test_app`) with multiple search and 
 
 - **Checksum Mode (`-m checksum`)**  
   Computes a 32-bit checksum of the input file. Used to verify correctness of results.  
-  For testing, the expected checksums are precomputed using a bash script.
+  For testing, the expected checksums are precomputed using a bash script (tests/tools/get_32bit_sum.sh).
 
 - **Help (`-h`)**  
   Prints information about the program and available command-line options.
